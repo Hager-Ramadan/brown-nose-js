@@ -9,7 +9,7 @@ function restPass() {
         loginLocal.forEach((el) => {
             if (el.email == restInput.value) {
 
-                window.open("/my account/rest.html", "_self")
+                window.open("../my account/rest.html", "_self")
 
 
             } else if (el.email !== restInput.value) {
