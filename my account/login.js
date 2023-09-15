@@ -123,7 +123,7 @@ function login() {
         let loginLocal = JSON.parse(localStorage.getItem("register"))
         loginLocal.forEach((el) => {
             if (el.email == emailInput.value && el.password == passInput.value) {
-                window.open("/home/index.html", "_self")
+                window.open("../home/index.html", "_self")
 
 
             } else if (el.email == emailInput.value && el.password !== passInput.value && passInput.value.length > 0 && emailInput.value.length > 0) {
