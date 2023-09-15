@@ -1320,5 +1320,8 @@ footer>ul>li>a:hover {
     align-items: center;
     
 }
+    .two .strong__pass span{
+    font-size: 12px;
+}
 }
 /* end responsive */
