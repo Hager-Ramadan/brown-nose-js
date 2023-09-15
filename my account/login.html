@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/all.min.css">
+    <link rel="stylesheet" href="../assets/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="Website icon" href="../assets/images/5b32e758-d283-4261-a980-305246955923.webp">
+    <title>My account-Brown Nose Coffee</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav class="container-header ">
+        <div class="navbar-container d-flex pt-4 pb-4 align-items-center justify-content-between">
+            <div class="nav-logo">
+                <a href="../home/index.html">
+                    <img src="../assets/images/Brown-Nose-Logo-Vairation-04-1 (5).png" class="original-img" alt="">
+                    <img src="../assets/images/BN-Character.png" class="respon-img" alt="">
+                </a>
+
+
+            </div>
+            <div class="nav-list respon-menu">
+                <ul class="d-flex align-items-center">
+                    <li class="dropdown-hover">
+                        <a class="dropdown-toggle" href="#">SHOP
+                            <span class="fa-solid fa-angle-down"></span>
+                        </a>
+
+                        <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown">
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col mb-3 mb-lg-0">
+                                        <div class="list-group list-group-flush">
+                                            <a href="../coffee/coffee.html"
+                                                class="list-group-item list-group-item-action">COFFEE</a>
+                                            <a href="../merchendise/merchen.html"
+                                                class="list-group-item list-group-item-action">MERCHANDISE</a>
+                                            <a href="../coffee-subscribtion/subscribtion.html"
+                                                class="list-group-item list-group-item-action">COFFEESUBSCRIPTION</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <li class="respon-shop"><a href="../coffee/coffee.html" class="respon-shop-group">COFFEE</a></li>
+                    <li class="respon-shop"><a href="../merchendise/merchen.html"
+                            class="respon-shop-group">MERCHANDISE</a></li>
+                    <li class="respon-shop"><a href="../coffee-subscribtion/subscribtion.html"
+                            class="respon-shop-group">COFFEESUBSCRIPTION</a></li>
+
+                    </li>
+
+                    <li>
+                        <a href="../our story/story.html">OUR STORY</a>
+                    </li>
+                    <li>
+                        <a href="../how to guide/guide.html">HOW-TO GUIDE</a>
+                    </li>
+
+                    <li>
+                        <a href="../wholesale/sale.html">WHOLESALE</a>
+                    </li>
+                    <li>
+                        <a href="../contact/contact.html">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="../locations/location.html">LOCATIONS</a>
+                    </li>
+                    <li class="media-icons">
+                        <div>
+                            <a href="https://www.facebook.com/brownnosecoffee/" target="_blank"> <i
+                                    class="fa-brands fa-facebook-f fa-lg"></i> </a>
+                            <a href="https://www.instagram.com/brownnosecoffee/" target="_blank"><i
+                                    class="fa-brands fa-instagram fa-lg"></i></a>
+                            <a href="admin@brownnosecoffee.com" target="_blank"><i
+                                    class="fa-solid fa-envelope fa-lg"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-icons">
+                <ul class="d-flex justify-content-between">
+                    <li>
+                        <div>
+                            <a href="../my account/login.html">
+                                <span class="fa-regular fa-user"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="../cart/cart.html">
+                                <span class="fa-solid fa-bag-shopping"></span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="bars">
+                        <div>
+
+                            <span class="fa-solid fa-bars-staggered"></span>
+
+                        </div>
+                    </li>
+                    <li class="cancel">
+                        <div>
+
+                            <span class="fa-solid fa-x"></span>
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <div class="container_body brown_container login-register-container">
+        <div class="email-error pb-4" id="email-error">
+            <p>Error: Username is required.</p>
+        </div>
+        <div class="email-error pb-4" id="pass-error">
+            <p>Error: The password field is empty.</p>
+        </div>
+        <div class="email-error pb-4" id="not-matched">
+            <p>Unknown email address. Check again or sign up now.</p>
+        </div>
+        <div class="email-error pb-4" id="unknown-pass">
+            <p>Error: The password you entered for the email address is incorrect.<a href="../my account/lost.html">Lost your password?</a></p>
+        </div>
+
+        <div class="tabs d-flex justify-content-evenly pb-4">
+            <div><em class="active" data-cont=".one">Login</em></div>
+            <div><em data-cont=".two">Register</em></div>
+        </div>
+        <div class="tabs-content d-flex">
+            <div class="one w-100">
+
+                <div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Username or email address
+                            <span>*</span></label>
+                        <input type="email" class="form-control email-input" id="exampleFormControlInput1">
+                    </div>
+                    <label for="inputPassword5" class="form-label">Password <span>*</span></label>
+                    <input type="password" id="inputPassword5" class="form-control pass-input"
+                        aria-describedby="passwordHelpBlock">
+
+                </div>
+                <div class="form-check pt-3 pb-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Remember me
+                    </label>
+                </div>
+                <div class="d-grid pt-2 ">
+                    <button class="btn btn-login w-100" type="button">Log In</button>
+                </div>
+                <div class="lost-password pt-3 text-center">
+                    <a href="../my account/lost.html">Lost your password?</a>
+                </div>
+            </div>
+            <div class="two w-100">
+
+                <div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address<span>*</span></label>
+                        <input type="email" class="form-control email__input" id="exampleFormControlInput1">
+                    </div>
+                    <label for="inputPassword5" class="form-label">Password <span>*</span></label>
+                    <input type="password" id="inputPassword5" class="form-control password__input"
+                        aria-describedby="passwordHelpBlock">
+                    <div class="strong__pass">
+                        <span>strong</span>
+                    </div>
+                </div>
+                <div class="form-check pt-3 pb-5">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label form-check-register" for="flexCheckDefault">
+                        Subscribe to our newsletter
+                    </label>
+                    <div class="pt-3 privacy-register">
+                        <p>Your personal data will be used to support your experience throughout this website, to manage
+                            access to your account, and for other purposes described in our <a
+                                href="../privacy/privecy.html" target="_blank"> privacy policy</a>.</p>
+                    </div>
+                </div>
+                <div class="d-grid pt-2 ">
+                    <button class="btn w-100 register__btn" type="button">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start footer -->
+    <footer>
+        <span>© 2022 Brown Nose Coffee.</span>
+        <p>Website Designed & Developed by <a href="">Hager Ramadan</a>.</p>
+        <ul class="d-flex flex-wrap justify-content-center">
+            <li> <a href="https://www.facebook.com/brownnosecoffee/" target="_blank"> <i
+                        class="fa-brands fa-facebook-f fa-lg"></i> </a> </li>
+            <li><a href="https://www.instagram.com/brownnosecoffee/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-lg"></i></a></li>
+            <li><a href="admin@brownnosecoffee.com" target="_blank"><i class="fa-solid fa-envelope fa-lg"></i></a></li>
+        </ul>
+    </footer>
+    <!-- end footer -->
+
+    <script src="login.js"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+
+</html>
