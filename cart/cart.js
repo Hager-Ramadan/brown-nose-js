@@ -9,7 +9,7 @@ function displayData() {
     if (cart == undefined || cart.length == 0) {
 
         prodCont.innerHTML = `<div class="container-cart d-flex flex-column justify-content-center align-items-center"> <p> Your Cart Is Currently Empty.</p>
-            <a href="/coffee/coffee.html">
+            <a href="../coffee/coffee.html">
                 <button type="button" class="btn btn-cart btn-location">Return To Shop</button>
             </a></div>`
     } else {
@@ -120,7 +120,7 @@ function addEventsToBtn() {
             calcTotal();
             if (prodObj == undefined || prodObj.length == 0) {
                 prodCont.innerHTML = `<div class="container-cart d-flex flex-column justify-content-center align-items-center"> <p> Your Cart Is Currently Empty.</p>
-            <a href="/coffee/coffee.html">
+            <a href="../coffee/coffee.html">
                 <button type="button" class="btn btn-cart btn-location">Return To Shop</button>
             </a></div>`
             }
