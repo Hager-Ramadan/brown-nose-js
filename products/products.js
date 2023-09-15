@@ -83,7 +83,7 @@ const products = [
     }
 ]
 
-const cart = JSON.parse(localStorage.getItem('cart'))
+const cart = JSON.parse(localStorage.getItem('cart'))??[]
 const container = document.querySelector('.added-prod')
 
 function addEventsToBtn() {
