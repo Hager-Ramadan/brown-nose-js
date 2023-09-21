@@ -301,6 +301,13 @@ background-color:rgb(46, 69, 111);
 .card-coffee:hover>a {
     color: var(--wc-black-color) !important;
 }
+.btn-add-hover{
+    display: none;
+
+}
+.card-coffee:hover .btn-add-hover{
+    display: block;
+}
 
 /* end coffee */
 /* start subscription */
