@@ -55,7 +55,7 @@ const products = [
         "title": "COFFEE SAMPLE BOX",
         "description": "",
         "type": "",
-        "price": "Out Of Stock",
+        "price": "500.00",
         "currency": "",
         "category": "coffee",
         "image": "../assets/images/Brown-Nose-Sample-Box-300x300.jpg",
@@ -104,5 +104,38 @@ alt="" class="w-100 h-auto pb-4">
         </div>
 
     `
+ addEventsToBtn()
+
     })
+
 }
+
+const cart = JSON.parse(localStorage.getItem('cart'))??[]
+const container = document.querySelector('.container_body')
+
+
+function addEventsToBtn() {
+    const addToCartsBtn = document.querySelectorAll('.btn-add-cart')
+    addToCartsBtn.forEach(ele=>{
+    ele.addEventListener('click', () => {
+const parent = ele.closest('.card-coffee')
+        const id = parent.dataset.id
+
+        const product = products.find(product => product.id == id)
+        const cartProd = cart.find(product => product.id == id)
+        if (cartProd == undefined) {
+            cart.push({
+                ... product,
+                quantity: 1
+            })
+
+        } else {
+            cartProd.quantity ++
+        }
+        localStorage.setItem('cart', JSON.stringify(cart))
+        
+
+    })
+})
+}
+
