@@ -111,7 +111,6 @@ function addEventsToBtn() {
         }” have been added to your cart.</p>
 
 `
-
     })
 
 }
