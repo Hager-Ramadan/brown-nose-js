@@ -73,7 +73,7 @@ function displayProduct() {
     products.forEach(product => {
 
         containerProd.innerHTML += `
-<div class ="col-lg-4 col-md-6 col-sm-12 g-sm-3 text-center card-coffee">
+<div class ="col-lg-4 col-md-6 col-sm-12 g-sm-3 text-center card-coffee" data-id=${product.id}>
 
 <a href = ${
             product.url
