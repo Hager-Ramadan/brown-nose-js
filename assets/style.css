@@ -1331,4 +1331,14 @@ footer>ul>li>a:hover {
     font-size: 12px;
 }
 }
+@media (max-width:375px){
+    .btn-started{
+        padding: 10px;
+        font-size: 8px;
+    }
+    .started h2{
+        font-size: 19px;
+    }
+
+}
 /* end responsive */
