@@ -56,7 +56,7 @@ const products = [
         "description": "",
         "type": "",
         "price": "500.00",
-        "currency": "",
+        "currency": "EGP",
         "category": "coffee",
         "image": "../assets/images/Brown-Nose-Sample-Box-300x300.jpg",
         "url": "../products/coffee-sample.html"
