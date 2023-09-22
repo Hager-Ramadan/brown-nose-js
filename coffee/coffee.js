@@ -112,6 +112,7 @@ alt="" class="w-100 h-auto pb-4">
 
 const cart = JSON.parse(localStorage.getItem('cart'))??[]
 const container = document.querySelector('.container_body')
+const containerMessage=document.querySelector('.added-prod')
 
 
 function addEventsToBtn() {
@@ -133,7 +134,14 @@ const parent = ele.closest('.card-coffee')
             cartProd.quantity ++
         }
         localStorage.setItem('cart', JSON.stringify(cart))
-        
+        containerMessage.innerHTML = `
+<p>${
+                cartProd.quantity
+            } × “${
+                product.title
+            }” have been added to your cart.</p>
+
+`
 
     })
 })
