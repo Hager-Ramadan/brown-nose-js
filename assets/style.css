@@ -290,7 +290,10 @@ background-color:rgb(46, 69, 111);
 .price {
     color: var(--wc-second-orange);
 }
+.card-coffee{
+        transition: .5s;
 
+}
 .card-coffee:hover {
     transform: scale(1.098, 1.076) translateY(0);
     transition: 1s;
@@ -300,13 +303,6 @@ background-color:rgb(46, 69, 111);
 
 .card-coffee:hover>a {
     color: var(--wc-black-color) !important;
-}
-.btn-add-hover{
-    display: none;
-
-}
-.card-coffee:hover .btn-add-hover{
-    display: block;
 }
 
 /* end coffee */
