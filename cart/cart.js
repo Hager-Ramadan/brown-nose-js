@@ -139,7 +139,6 @@ function calcTotal() {
         return acc + (+ prod.price * prod.quantity);
 
     }, 0)
-    console.log(total);
     subTotalPrice.textContent = total
     totalPrice.textContent = total
 
