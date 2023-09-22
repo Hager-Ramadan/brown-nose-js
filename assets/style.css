@@ -304,7 +304,11 @@ background-color:rgb(46, 69, 111);
 .card-coffee:hover>a {
     color: var(--wc-black-color) !important;
 }
-
+.added-prod{
+    position: fixed;
+    z-index: 33;
+    width: 87%;
+}
 /* end coffee */
 /* start subscription */
 .hover-img {
