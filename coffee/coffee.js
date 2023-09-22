@@ -5,7 +5,7 @@ const products = [
         "description": "LOS NISPEROS ANAEROBIC",
         "type": "",
         "price": "650.00",
-        "currency": "EGP",
+        "currency": "EGP  ",
         "category": "coffee",
         "image": "../assets/images/BROWN-NOSE-Costa-Rica-Los-Nisperos-website-photo-1-300x300.jpg",
         "url": "../products/costa-rich.html"
@@ -18,7 +18,7 @@ const products = [
         "description": "EL BAMBU HONEY",
         "type": "",
         "price": "600.00",
-        "currency": "EGP",
+        "currency": "EGP  ",
         "category": "coffee",
         "image": "../assets/images/BROWN-NOSE-Costa-Rica-El-Bambu-website-photo-1-300x300.jpg",
         "url": "../products/costa-rich1.html"
@@ -31,7 +31,7 @@ const products = [
         "description": "",
         "type": "Mogiana",
         "price": "350.00",
-        "currency": "EGP",
+        "currency": "EGP  ",
         "category": "coffee",
         "image": "../assets/images/BROWN-NOSE-LABEL-BRAZIL-bag-website-300x300.jpg",
         "url": "../products/brazail.html"
@@ -44,7 +44,7 @@ const products = [
         "description": "",
         "type": "Blend",
         "price": "400.00",
-        "currency": "EGP",
+        "currency": "EGP  ",
         "category": "coffee",
         "image": "../assets/images/milky-way-Brown-Nose-product-shot-new-2022-300x300.jpg",
         "url": "../products/milky-way.html"
@@ -56,7 +56,7 @@ const products = [
         "description": "",
         "type": "",
         "price": "500.00",
-        "currency": "EGP",
+        "currency": "EGP  ",
         "category": "coffee",
         "image": "../assets/images/Brown-Nose-Sample-Box-300x300.jpg",
         "url": "../products/coffee-sample.html"
