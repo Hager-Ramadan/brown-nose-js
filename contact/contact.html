@@ -129,7 +129,7 @@
     <!-- end navbar -->
     <div class="contact-container brown_container">
         <div class="row g-0 row-contact">
-            <img src="../assets/images/BN-Contact.jpg" alt="">
+            <img src="/assets/images/BN-Contact.jpg" alt="">
             <div class="contact-address">
                 <h5>BROWN NOSE COFFEE ROASTERS</h5>
                 <p>304 AL BAHR AL AZAM STREET,</p>
@@ -144,33 +144,45 @@
                 <p>Do you have any inquiry?</p>
 
             </div>
-
+           
             <div class="row form_row g-4">
                 <div class="col-lg col-md">
                     <label for="inputName" class="form-label">Your name *</label>
-                    <input type="text" class="form-control background" placeholder="John Doe" aria-label="your name">
+                    <input type="text" class="form-control input background" placeholder="John Doe"
+                        aria-label="your name">
+                    <div class="failed">
+                    </div>
                 </div>
                 <div class="col-lg col-md">
                     <label for="inputEmail" class="form-label">Email address *</label>
 
-                    <input type="email" class="form-control" placeholder="example@domain.com"
+                    <input type="email" class="form-control input" placeholder="example@domain.com"
                         aria-label="Email address">
+                    <div class="failed">
+                    </div>
                 </div>
                 <div class="col-lg col-md">
                     <label for="inputPhone" class="form-label">Phone *</label>
 
-                    <input type="tel" class="form-control background" placeholder="+2 02 123 123 123"
+                    <input type="tel" class="form-control input background" placeholder="+2 02 123 123 123"
                         aria-label="Phone">
+                    <div class="failed">
+                    </div>
                 </div>
                 <div class="col-12">
                     <label for="inputMessage" class="form-label pt-5">Message *</label>
-                    <input type="text" class="form-control message_input" id="inputMessage">
+                    <input type="text" class="form-control input message_input" id="inputMessage">
+                    <div class="failed">
+                    </div>
+
                 </div>
 
                 <div class="col-12 pt-5">
-                    <button type="submit" class="btn ">Submit</button>
+                    <button type="submit" class="btn btn-submit ">Submit</button>
+                    <div class="submit-error"></div>
                 </div>
             </div>
+          
         </div>
     </div>
     <!-- start footer -->
