@@ -811,7 +811,19 @@ background-color:rgb(46, 69, 111);
 .form_row {
     padding-bottom: 200px;
 }
+.failed,.submit-error{
+    padding-top: 10px;
+}
+.failed p{
+    color: red;
+    font-size: 13px;
+}
 
+.submit-error p{
+     color: red;
+    font-size: 15px;
+    font-weight: 800;
+}
 /* end contact */
 /* start location */
 .container-location {
